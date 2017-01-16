@@ -1,0 +1,148 @@
+body {
+	background-image: url(../images/sayagata-400px.png);
+}
+
+#whiteBar {
+	background-color:white;
+	border-bottom: 1px solid #c0c0c0;
+
+}
+
+#maincont {
+
+
+}
+
+#mainsection { 
+	background-color:white;
+	border: 1px solid #c0c0c0;
+
+}
+
+#largeHding { 
+	border-bottom: 2px solid #c0c0c0;
+
+}
+
+/* mypicture is only at index.html */
+#mypicture {
+
+}
+
+p {
+
+}
+h1 {
+
+}
+
+/* h2 is only on contact.html */
+h2 {
+
+
+} 
+
+
+#mediasection {
+	background-color:white;
+	border-bottom: 1px solid #c0c0c0;
+
+}
+
+
+#connect {
+	border-bottom: 1px solid #c0c0c0;
+
+
+}
+
+.medialogos {
+	
+}
+
+#tealbar {
+	background-color:#4aaaa5;
+
+}
+
+
+#graybar{
+	background-color:#4aaaa5;
+
+}
+
+#copyright {
+
+}
+
+#logo {
+
+}
+
+
+nav {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+
+
+
+/* Portfolio Pictures */
+#hangPict {
+
+}
+
+
+#rpgPict {
+
+}
+
+
+#triviapict {
+
+}
+
+
+#rutgerspict {
+
+}
+
+
+#prspict {
+
+}
+
+
+/* Portfolio pictures labels */
+#hangBar {
+
+}
+
+
+#rprgBar {
+
+}
+
+
+#triviaBar {
+
+}
+
+
+#rutgersBar {
+
+}
+
+
+#prsBar {
+
+}
+
