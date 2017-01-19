@@ -76,7 +76,8 @@ h3 {
 	color: #ffffff;
 	font-size: smaller;
 	font-weight: lighter;
-	padding: 2px;
+	padding: 5px;
+	text-align: center;
 }
 
 
@@ -149,8 +150,8 @@ h3 {
 
 nav { 
 	position: absolute;
-	top: 30px;
-	right: 310px
+	top: 50px;
+	right: 425px
 }
 
 
@@ -170,68 +171,59 @@ li {
 }
 
 
-/* Portfolio Pictures */
-#hangPict {
+.banner {
+	width: 206px;
+	margin: 70px 0px 0px 0px;
+}
+
+.bar {
+	background-color:#4aaaa5;
+	width: 206px;	
+}
+
+
+#hangman {
 	width: 210px;
 	height: 106px;
+	margin: 20px;
+	background-image: url(../images/hang.jpg);
+	overflow: hidden;
+	float:left;
 }
 
 
-#rpgPict {
+#rpg {
 	width: 210px;
 	height: 106px;
+	margin: 20px;
+	background-image: url(../images/rpg.jpg);
+	overflow: hidden;
+	float:left;
 }
 
-
-#triviapict {
+#trivia {
 	width: 210px;
 	height: 106px;
+	margin: 20px;
+	background-image: url(../images/trivia.jpg);
+	overflow: hidden;
+	float:left;
 }
 
-
-#rutgerspict {
+#rutgers {
 	width: 210px;
 	height: 106px;
+	margin: 20px;
+	background-image: url(../images/rutgers.jpg);
+	overflow: hidden;
+	float:left;
 }
 
-
-#prspict {
+#rock {
 	width: 210px;
 	height: 106px;
-}
-
-
-/* Portfolio pictures labels */
-#hangBar {
-	background-color:#4aaaa5;
-	width: 210px;
-}
-
-
-#rprgBar {
-	background-color:#4aaaa5;
-	width: 210px;
-}
-
-
-#triviaBar {
-	background-color:#4aaaa5;
-	width: 210px;
-}
-
-
-#rutgersBar {
-	background-color:#4aaaa5;
-	width: 210px;
-}
-
-
-#prsBar {
-	background-color:#4aaaa5;
-	width: 210px;
-}
-
-
-.projects {padding: 2px;
-	width: 210px;
+	margin: 20px;
+	background-image: url(../images/rockpaper.jpg);
+	overflow: hidden;
+	float:left;
 }
