@@ -1,4 +1,7 @@
+html {height: 100%;}
+
 body {margin: 0px;	
+	height: 100%;
 }
 
 
@@ -6,6 +9,7 @@ body {margin: 0px;
 	background-image: url(../images/sayagata-400px.png);
 	width: 960px;
 	margin: auto;
+	height: 100%;
 }
 
 
@@ -18,9 +22,23 @@ body {margin: 0px;
 }
 
 
+#right {
+	float:right;
+	position: relative;
+	top:44px;
+	right: 87px;
+}
 
+#left { 
+	float:left;
+	position:relative;
+	top:20px;
+	right: -59px;
+
+}
 #maincont {
 	overflow: auto;
+	height: 100%;
 }
 
 
@@ -144,12 +162,12 @@ h3 {
 
 
 
-
+/*
 nav { 
 	position: absolute;
 	top: 50px;
 	right: 425px
-}
+}*/
 
 
 ul {
@@ -251,9 +269,9 @@ a:hover, a:active {
 	margin: 0px;
 	overflow:hidden;
 	background-color: #4aaaa5;
-	position: absolute;
+	/*position: absolute;
 	top: 20px;
-	right:970px; 
+	right:970px; */
 }
 
 #frame {
@@ -266,5 +284,14 @@ a:hover, a:active {
 	padding-bottom: 10px; 
 	text-align: center;
 	color:#ffffff;
+}
 
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 960px;
+  margin: auto;
 }
